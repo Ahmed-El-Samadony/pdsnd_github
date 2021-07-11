@@ -13,6 +13,7 @@ In this project, you will use data provided by [Motivate](https://www.motivateco
 
 ### Files used
 bikeshare.py
+Data files can be downloaded from this [link](https://video.udacity-data.com/topher/2018/March/5aab379c_bikeshare-2/bikeshare-2.zip)
 
 ### Statistics Computed
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. 

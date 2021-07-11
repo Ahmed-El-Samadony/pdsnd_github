@@ -148,6 +148,7 @@ def station_stats(df):
 
 
 def duration_format(duration):
+    """Returns duration in the form of hours and minutes and seconds."""
     hours = int(duration/3600)
     duration %= 3600
     minutes = int(duration/60)

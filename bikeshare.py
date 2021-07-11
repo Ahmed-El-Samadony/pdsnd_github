@@ -153,7 +153,7 @@ def duration_format(duration):
     minutes = int(duration/60)
     duration %= 60
     seconds = int(duration)
-    return (str(hours) + ' hours and '+ str(minutes) + ' minutes and ' + str(seconds) + ' seconds.')
+    return ('{} hours and {} minutes and {} seconds.'.format(hours, minutes,seconds))
     
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
